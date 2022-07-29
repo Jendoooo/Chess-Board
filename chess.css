@@ -1,0 +1,77 @@
+fieldset{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.ranktop{
+    float: left;
+    width: 5%;
+    grid-template-columns: repeat(1,1fr);
+    background-color: yellow;
+    height: max-content;
+
+}
+
+
+.main{
+    float:left;
+    width: 90%;
+    background-color: purple;
+}
+
+.rankreverse{
+   
+    float: right;
+    width: 5%;
+    background-color: pink;
+}
+    
+legend{
+    text-align: center;
+}
+
+ 
+.board{
+    font-family: 'Noto Sans', Sans-Serif;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    cursor: pointer;
+    
+}
+
+
+.light{
+    background-color: rgb(193,161,108);
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    
+
+}
+
+
+.dark{
+    background-color: rgb(06,64,06);
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.file{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+}
+
+#white_piece{
+    color: white;
+
+    font-family: 'Noto Sans', Sans-Serif;
+}
+
